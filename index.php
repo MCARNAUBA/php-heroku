@@ -88,26 +88,26 @@
 								<input type="email" id="email" name="email" class="form-control" value="">
 								<small id="emailHelp" class="form-text text-muted"><em>email@email.com</em></small>
 							</div>
+					
+						</div>
+							<br>
+							<button type="submit" class="btn btn-primary" Onclick="enviar(1)" >Cadastrar</button>
+
+							<br><br>
+
+							<input type="hidden" value="0" id="acao" name="acao">
+							<input type="hidden" value="-1" id="id" name="id">
+
+							<script>
+								var dados;
+
+								function enviar(acao) {
+									document.getElementById('acao').value = acao;
+									document.getElementById("frm").submit();
+								}
+							</script>
 					</form>
-					</div>
-						<br>
-						<button type="submit" class="btn btn-primary" Onclick="enviar(1)" >Cadastrar</button>
-
-						<br><br>
-
-						<input type="hidden" value="0" id="acao" name="acao">
-						<input type="hidden" value="-1" id="id" name="id">
-
-						<script>
-							var dados;
-
-							function enviar(acao) {
-								document.getElementById('acao').value = acao;
-								document.getElementById("frm").submit();
-							}
-						</script>
-
-					</div>
+						</div>
 
 				</div>
 
