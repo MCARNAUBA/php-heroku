@@ -64,30 +64,31 @@
 
 					<form name="frm" id="frm" action="listar.php" method="post">
 
-					<div class="row row g-2">
-  						<div class="col col-sm">
-							<label class="form-label">Código: </label
-							<input type="number" id="codigo" name="codigo" class="form-control" value="">
-							<small class="form-text text-muted"><em>Somente números.</em></small>
-						</div>
-						<div class="col col-sm-10">
-							<label class="form-label">Nome do cliente: </label>
-							<input type="text" id="nome" name="nome" class="form-control" value="">
+						<div class="row row g-2">
+							<div class="col col-sm">
+								<label class="form-label">Código: </label
+								<input type="number" id="codigo" name="codigo" class="form-control" value="">
+								<small class="form-text text-muted"><em>Somente números.</em></small>
+							</div>
+							<div class="col col-sm-10">
+								<label class="form-label">Nome do cliente: </label>
+								<input type="text" id="nome" name="nome" class="form-control" value="">
 
+							</div>
 						</div>
-					</div>
 
-					<div class="row  row g-2">
-  						<div class="col col-sm">
-							<label class="form-label">CPF: </label>
-							<input type="text" id="cpf" name="cpf" class="form-control" value="">
-							<small  class="form-text text-muted"><em>Somente números.</em></small>
-						</div>
-						<div class="col col-sm-8">
-							<label class="form-label">E-mail: </label>
-							<input type="email" id="email" name="email" class="form-control" value="">
-							<small id="emailHelp" class="form-text text-muted"><em>email@email.com</em></small>
-						</div>
+						<div class="row  row g-2">
+							<div class="col col-sm">
+								<label class="form-label">CPF: </label>
+								<input type="text" id="cpf" name="cpf" class="form-control" value="">
+								<small  class="form-text text-muted"><em>Somente números.</em></small>
+							</div>
+							<div class="col col-sm-8">
+								<label class="form-label">E-mail: </label>
+								<input type="email" id="email" name="email" class="form-control" value="">
+								<small id="emailHelp" class="form-text text-muted"><em>email@email.com</em></small>
+							</div>
+					</form>
 					</div>
 						<br>
 						<button type="submit" class="btn btn-primary" Onclick="enviar(1)" >Cadastrar</button>
@@ -107,8 +108,6 @@
 						</script>
 
 					</div>
-					
-					</form>
 
 				</div>
 
