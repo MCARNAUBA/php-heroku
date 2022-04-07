@@ -53,22 +53,19 @@
 
 		<div class="container">
 
-
-
-
 			<div class="card w-75 p-3 rounded">
 				<div class="card-header">
 					<h5 class="card-title">Dados do cliente:</h5>
 				</div>
 				<div class="card-body">
 
-					<form name="frm" id="frm" action="listar.php" method="post">
+					<form name="frm" id="frm" action="index.php" method="post">
 
 						<div class="row row g-2">
 							<div class="col col-sm">
 								<label class="form-label">Código: </label
 								<input type="number" id="codigo" name="codigo" class="form-control" value="">
-								<small class="form-text text-muted"><em>Somente números.</em></small>
+								<small class="form-text text-muted"><em>..</em></small>
 							</div>
 							<div class="col col-sm-10">
 								<label class="form-label">Nome do cliente: </label>
@@ -90,6 +87,7 @@
 							</div>
 					
 						</div>
+					
 							<br>
 							<button type="submit" class="btn btn-primary" Onclick="enviar(1)" >Cadastrar</button>
 
@@ -106,10 +104,9 @@
 									document.getElementById("frm").submit();
 								}
 							</script>
+						</div>
 					</form>
-
 				</div>
-
 			</div>
 
 			<div style="height: 100px;"></div>
