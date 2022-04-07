@@ -91,7 +91,7 @@
 							<br>
 							<button type="submit" class="btn btn-primary" Onclick="enviar(1)" >Cadastrar</button>
 
-							<br><br>
+							<br></br>
 
 							<input type="hidden" value="0" id="acao" name="acao">
 							<input type="hidden" value="-1" id="id" name="id">
