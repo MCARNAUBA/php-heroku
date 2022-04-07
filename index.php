@@ -104,7 +104,6 @@
 									document.getElementById("frm").submit();
 								}
 							</script>
-						</div>
 					</form>
 				</div>
 			</div>
